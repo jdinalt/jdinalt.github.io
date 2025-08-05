@@ -6,12 +6,12 @@ description: "Alpha-stage ML framework bringing distributed pipeline parallelism
 
 # Democratizing Large Model Training
 
-**Forgather** is an alpha-stage ML framework that aims to make large model training accessible to hobbyists and researchers with consumer hardware.
+[**Forgather**](https://github.com/jdinalt/forgather) is an alpha-stage ML framework that aims to make large model training accessible to hobbyists and researchers with consumer hardware.
 
 ## The Vision
 
 ### 🚀 **Pipeline Parallelism for Consumer GPUs**
-Enable training of models larger than single GPU memory by distributing them across multiple consumer-grade cards. Our goal is to make 7B+ parameter full model training accessible without enterprise hardware.
+Enable training of models larger than single GPU memory by distributing them across multiple consumer-grade cards using [Torch Distributed Pipeline Parallelism](https://docs.pytorch.org/docs/main/distributed.pipelining.html) Our goal is to make 7B+ parameter full model training accessible without enterprise hardware.
 
 ### 📝 **End Configuration Duplication**
 Eliminate the copy-paste cycle of ML experiments through a powerful template inheritance system. Specify only what changes between experiments, not entire configurations.
@@ -48,9 +48,9 @@ Contribute to framework architecture, code generation, and template systems.
 
 ## What We're Building
 
-- **Accessible Training**: 7B+ models on consumer RTX setups
+- **Accessible Training**: 7B+ models on consumer setups
 - **Template-Driven**: Systematic experimentation without configuration chaos
-- **Pipeline Parallelism**: Multiple efficient scheduling algorithms
+- **Pipeline Parallelism**: Much faster than FSDP on hardware lacking a fast interconnect
 - **Framework Freedom**: Generated models work independently
 - **Research Focus**: Built for exploration and comparison
 
