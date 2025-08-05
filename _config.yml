@@ -7,7 +7,7 @@ baseurl: ""
 # Author
 author:
   name: "Forgather Team"
-  email: "contact@forgather.dev"
+  email: "joedkloss@gmail.com"
 
 # Jekyll settings
 markdown: kramdown
