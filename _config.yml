@@ -1,0 +1,59 @@
+# Site settings
+title: "Forgather ML Framework"
+description: "Configuration-driven ML framework with template inheritance and distributed pipeline parallelism for consumer GPUs"
+url: "https://jdinalt.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: "Forgather Team"
+  email: "contact@forgather.dev"
+
+# Jekyll settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+timezone: UTC
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO
+lang: en-US
+
+# Social
+github_username: jdinalt
+repository: jdinalt/forgather
+
+# Theme
+theme: minima
+
+# Navigation
+header_pages:
+  - getting-started.md
+  - features.md
+  - examples.md
+  - docs.md
+
+# Collections
+collections:
+  examples:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Forgather Team"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
