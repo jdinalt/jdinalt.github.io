@@ -31,13 +31,6 @@ repository: jdinalt/forgather
 # Theme
 theme: minima
 
-# Navigation
-header_pages:
-  - getting-started.md
-  - features.md
-  - examples.md
-  - docs.md
-
 # Collections
 collections:
   examples:
